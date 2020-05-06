@@ -2,20 +2,25 @@ package main
 
 import "fmt"
 
-func main() {
-   var b int = 15
-   var a int
-   numbers := [6]int{1, 2, 3, 5} 
+func main(){
+   for i:=0; i<34; i=i+5{     //traditional for loop
+      fmt.Println(i)
+   }
 
-   /* for loop execution */
-   for a := 0; a < 10; a++ {
-      fmt.Printf("value of a: %d\n", a)
+      fmt.Println("-*-8_80-8-8-8-8---8--8-8-8--8-8--88-")
+
+   i:=30
+   for ; i>0 ; i-=5{       //tweaking for to work as while
+      fmt.Println(i)
    }
-   for a < b {
-      a++
-      fmt.Printf("Value of a: %d\n", a)
+
+   fmt.Println("-*-8_80-8-8-8-8---8--8-8-8--8-8--88-")
+
+   sum:=1
+   for sum<1025{          //while loop
+      fmt.Println(sum)
+      sum+=sum
    }
-   for i,x:= range numbers {
-      fmt.Printf("value of x = %d at %d\n", x,i)
-   }   
+
+   
 }
