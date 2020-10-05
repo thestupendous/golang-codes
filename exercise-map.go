@@ -11,7 +11,7 @@ import (
 func WordCount(s string) map[string]int {
 	m := make(map[string]int)
 	rist := strings.Fields(s)
-	fmt.Println(rist)
+	fmt.Printf("rist %v , and type %T , done\n",rist,rist)
 	for _ , i := range rist{
 		m[i] += 1
 	}
