@@ -4,6 +4,7 @@ import (
 	"fmt"
 	_ "strconv"
 )
+var omnipotent int = 90000
 
 func main(){
 	fmt.Println("go" + " through");

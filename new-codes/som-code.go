@@ -1,0 +1,1 @@
+package main import "fmt" func loca(name,city string) (region,continent string) { switch city { case "New York", "Manasa", "Chicago": continent = "North America" default: continent = "Unknown" } return // returning multiple values// } func main() { region,continent := loca("Neemuch","Manasa") //fmt.Println(region,continent) fmt.Printf("%s lives in %s", region, continent) } 
