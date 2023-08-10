@@ -1,0 +1,2 @@
+Datastructures
+ - struct - define a structure for bhagona dimensions (radius,height). Define functions for it for comparison of two bhagone, which one is bigger, functions for altering dimensions.
