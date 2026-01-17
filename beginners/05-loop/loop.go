@@ -6,4 +6,12 @@ func main() {
 		fmt.Print(">")
 	}
 	fmt.Println()
+
+
+	i:=5
+	for i>0 {
+		fmt.Print(">")
+		i-=1
+	}
+	fmt.Println()
 }
